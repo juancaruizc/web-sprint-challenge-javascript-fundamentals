@@ -18,7 +18,6 @@ const zooAnimals = [
 /* Request 1: .forEach()
 
 The zoos want to display both the scientific name and the animal name in front of the habitats. Populate the displayNames array with only the animal_name and scientific_name of each animal. displayNames will be an array of strings, and each string should follow this pattern: "Name: Jackal, asiatic, Scientific: Canis aureus."
-
 */
 const displayNames = [];
 zooAnimals.forEach(function(item) {
@@ -98,8 +97,8 @@ Stretch: If you haven't already, convert your array method callbacks into arrow 
 
 */
 
-const add = (a, b) => a + b;
+// const add = (a, b) => a + b;
 
-const multiply = (a, b) => a * b;
+// const multiply = (a, b) => a * b;
 
-const greeting = (a, b) => `Hello ${a} ${b}, nice to meet you!`
+// const greeting = (a, b) => `Hello ${a} ${b}, nice to meet you!`
